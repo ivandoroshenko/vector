@@ -1,0 +1,124 @@
+body {
+    background-color: #e2e7ec;
+}
+
+.container  {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.card_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
+.card--big {
+    width: 66%;
+    background: url('./img/card--big.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 32%;
+    background: #fff;
+}
+
+.card--big,
+.card--big + .card {
+    margin-bottom: 20px;
+}
+
+.card_bottom {
+    margin-top: auto;
+}
+
+.card_bottom--big {
+    padding: 0 0 40px 43px;
+}
+
+.card .card_bottom {
+    padding: 28px 26px 25px;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card_media {
+    margin: 0;
+    width: 100%;
+}
+
+.card_img {
+    width: 100%;
+    height: auto;
+}
+
+.card_date {
+    color: #818181;
+    font-family: "Hans Kendrick", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    margin-bottom: 21px;
+    display: block;
+
+}
+
+.card--big .card_date {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 23px;
+}
+
+.card_title {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    margin: 0;
+
+}
+
+.card--big .card_title {
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.75px;
+    max-width: 433px;
+}
+
+.card_icon {
+    margin-top: auto;
+}
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading_img {
+    margin-right: 13px;
+}
+
+.loading_title {
+    color: #99a5b0;
+    font-family: "Hans Kendrick", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+}
+
