@@ -1,0 +1,23 @@
+@media  (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .card_title {
+        line-height: 22px;
+    }
+
+    .card--big {
+        width: 100%;
+    }
+
+    .card {
+        width: 48.5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 100%;
+    }
+}
